@@ -83,11 +83,6 @@ void Output(Node* _pList)
 
 void Output2(Node* _pList)
 {
-	/*
-	cout << _pList->Value << endl;;
-	if (_pList->Front != nullptr)
-		Output2(_pList->Front);
-	*/
 	Node* pNode=_pList;
 
 	while (true)
